@@ -3,7 +3,7 @@ section img {
 }
 @font-face {
     font-family: PT-Sans-Narrow;
-    src: url(fonts/PT_Sans-Narrow-Web-Bold.ttf);
+    src: url(PT_Sans-Narrow-Web-Bold.ttf);
 }
 
 * {
