@@ -1,0 +1,30 @@
+body{
+ background-color: white;
+    margin: 0;
+}
+.header {
+    justify-content:flex-start;
+    
+}
+.w3-sidebar {
+   background-color: rgb(192, 156, 156);
+    width : 200px;
+}
+.w3-sidebar img{
+    width: 100%;
+    
+}
+main {
+    margin-left:250px;
+    height: 100vh;
+}
+image{
+    height: 100%;
+
+}
+
+section {
+    min-height: 100vh;
+    background-image: url(img/route.jpg);
+    background-size: cover;
+}
