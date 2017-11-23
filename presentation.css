@@ -1,0 +1,8 @@
+body{
+    background-color: silver;
+       margin: 0;
+   }
+.header {
+    justify-content:flex-start;
+    
+}
