@@ -1,6 +1,5 @@
 .header {
-    justify-content:flex-start;
-    
+    justify-content:flex-start;    
 }
 
 
@@ -21,7 +20,7 @@ image{
 
 section {
     min-height: 100vh;
-    background-image: url(img/eau.jpg);
+    background-image: url(img/water.jpg);
     width: 100%; 
     background-size: cover;
 }
