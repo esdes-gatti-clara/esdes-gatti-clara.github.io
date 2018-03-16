@@ -103,6 +103,10 @@ h2{
     color: rgba(250, 0, 0, 0.5);
 
 }
+header path {
+    fill: transparent;
+    stroke:black;
+}
 /*Images of articles*/
 #manger {background-image: url('img/manger.jpg');}
 #boire {background-image: url('img/boire.jpg')}
