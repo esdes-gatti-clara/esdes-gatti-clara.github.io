@@ -19,6 +19,7 @@ Description de :
 - Mes formations 
 - Mon expérience professionnelle
 - Mes stages
+
 ![Pagecv](maquette/Diapositive2.png)
 
 Sur certaines lignes seront en lien des articles. 
