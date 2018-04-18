@@ -8,7 +8,7 @@ Dans le domaine du médical, de l'agro-alimentaire ou du tourisme.
 
 
 # Présentation
-**Clara GATTI**
+**Clara GATTI** en java script
 Explication sur ma personne et mon blog : Qui je suis et ce que je cherche : 
 "alternance en marketing".
 
