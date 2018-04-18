@@ -11,6 +11,7 @@ Dans le domaine du médical, de l'agro-alimentaire ou du tourisme.
 **Clara GATTI** (avec animation javascript)
 Explication sur ma personne et mon blog : Qui je suis et ce que je cherche : 
 "alternance en marketing".
+![Pagedepresentation](Présentation maquettes/Diapositive1.png)
 
 # CV
 
