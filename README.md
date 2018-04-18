@@ -1,6 +1,6 @@
 # Mon cv en ligne
 
-L'objectif de ce site est de proposer mon CV en ligne aux entreprises pour ma recherche d'alternance. Le site proposera 4 pages différentes en accès direct sur le header : "Présentation" ; "CV"; "Compétences", "contact"
+L'objectif de ce site est de proposer mon CV en ligne aux entreprises pour ma recherche d'alternance. Le site proposera 4 pages différentes en accès direct sur le **header** : "Présentation" ; "CV"; "Compétences", "contact"
 
 Cible : 
 Mon CV s'adresse aux grands groupes basés à Lyon. 
