@@ -1,0 +1,73 @@
+body{
+background-color: white;
+    margin: 0;
+}
+
+.header {
+    justify-content:flex-start;
+    
+}
+
+
+main {
+    margin-left:250px;
+    height: 100vh;
+}
+image{
+    height: 100%;
+
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+}
+
+ 
+#intro {
+    min-height: 100vh;
+    background-image: url(img/sun.jpg);
+    width: 100%; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px; 
+}
+#bouton1 {
+    background-color: #e7e7e7; color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: white;
+    opacity: 0.2;
+}
+
+svg {
+    width: 40%;
+}
+
+path {
+    fill: transparent; 
+    stroke: whitesmoke;
+    stroke-width: 1px;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
