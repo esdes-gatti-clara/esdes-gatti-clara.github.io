@@ -29,12 +29,12 @@ image{
 }
 
 #description {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 #description:hover {
-    letter-spacing: 2px;
-    font-size: 40px; 
+    letter-spacing: 1px;
+    font-size: 20px; 
 }
 
 #intro {
@@ -66,7 +66,11 @@ path {
     stroke: whitesmoke;
     stroke-width: 1px;
 }
-
+#one {
+    justify-content:flex-start;
+    font-family:'montserrat';
+    
+}
 
 /* For Mobliles Only */
 @media only screen and (max-width: 600px) {
