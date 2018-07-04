@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .header {
     justify-content:flex-start;    
 }
 
-
+body {
+    font-family:'montserrat';
+}
 main {
     margin-left:250px;
     height: 100vh;

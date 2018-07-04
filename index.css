@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body{
 background-color: white;
     margin: 0;
+    font-family:'montserrat';
 }
 
 .header {
     justify-content:flex-start;
+    font-family:'montserrat';
     
 }
 
@@ -24,7 +28,15 @@ image{
     align-items: center;
 }
 
- 
+#description {
+    transition: all 0.3s ease-in-out;
+}
+
+#description:hover {
+    letter-spacing: 2px;
+    font-size: 40px; 
+}
+
 #intro {
     min-height: 100vh;
     background-image: url(img/sun.jpg);
@@ -55,19 +67,37 @@ path {
     stroke-width: 1px;
 }
 
-@media only screen and (max-width:800px) {
-    /* For tablets: */
-    .main {
-      width: 80%;
-      padding: 0;
+
+/* For Mobliles Only */
+@media only screen and (max-width: 600px) {
+    section {
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
-    .right {
-      width: 100%;
+
+    h1 {
+        width: 80%;
     }
-  }
-  @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .menu, .main, .right {
-      width: 100%;
+
+    article {
+        width: 80%;
     }
-  }
+}
+
+/* For Tablets Only */
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    } 
+
+    article {
+        width: 30%;
+    }
+}
+
+/* For Desktop Only */
+@media only screen and (min-width: 900px) {
+
+}
