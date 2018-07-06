@@ -61,11 +61,6 @@ svg {
     width: 40%;
 }
 
-path {
-    fill: transparent; 
-    stroke: whitesmoke;
-    stroke-width: 1px;
-}
 #one {
     justify-content:flex-start;
     font-family:'montserrat';
