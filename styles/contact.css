@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body{
-background-color: white;
     margin: 0;
+    background-image: url(../img/flower.jpg); 
     font-family:'montserrat';
 }
 
@@ -28,48 +28,27 @@ image{
     align-items: center;
 }
 
-#description {
-    transition: all 0.5s ease-in-out;
+#conta {
+    background-color: rgb(247, 245, 245);
+
 }
 
-#description:hover {
-    letter-spacing: 1px;
-    font-size: 20px; 
+
+.paper {
+    height: 50px; 
+    width: 50px;
+    transform: translate(100px, 200px);
+    animation: paper 5s ease-in-out alternate; 
+
 }
 
-#intro {
-    min-height: 100vh;
-    background-image: url(img/sun.jpg);
-    width: 100%; 
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 70px; 
-}
-#bouton1 {
-    background-color: #e7e7e7; color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    border: white;
-    opacity: 0.2;
-}
-
-svg {
-    width: 40%;
-}
-
-path {
-    fill: none;
-    stroke: white;
-}
-
-#one {
-    justify-content:flex-start;
-    font-family:'montserrat';
-    
+@keyframes paper {
+    from {
+        transform: translate(0, 0);
+    }
+    to  {
+        transform: translate(100px, 200px);
+    }
 }
 
 /* For Mobliles Only */
